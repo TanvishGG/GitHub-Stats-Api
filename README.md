@@ -12,3 +12,7 @@ Source code of a GitHub stats image generator for personal use
 
 ---
 ## Examples
+1. Github Stats
+<img src="https://api.tanvish.me/git-stats?q" alt="stats image">
+2. Github Language Analytics
+<img src="https://api.tanvish.me/git-language?q" alt="language analytics">
