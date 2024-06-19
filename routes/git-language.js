@@ -5,7 +5,7 @@ async function getLanguages(owner,token) {
 try {
     const res = await axios({
         type:"get",
-        url:`https://api.github.com/user/repos?per_page=100`,
+        url:`https://api.github.com/user/repos?per_page=100&type=owner`,
         headers: {
             Accept:"application/vnd.github+json",
             Authorization: `token ${token}`
